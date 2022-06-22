@@ -1,6 +1,36 @@
-"""High-level data models/components for the learner."""
+"""High-level data models/components for the learner.
+
+This thing should be learning rules.
+
+TODO:
+Generalized
+Battery
+of
+Datasets
+(GBoD)
+"""
 
 import numpy as np
+
+
+class Rule:
+    """
+    TODO: Use knowledge of context-free grammar
+    """
+
+    def __init__(self):
+        pass
+
+    def apply(input_x) -> bool:
+        """
+        Return True or which rules were violated.
+        """
+        return True
+
+
+class Model:
+    def query(self):
+        pass
 
 
 class ConceptTable:
