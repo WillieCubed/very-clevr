@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """A quick script for casual use.
 
 This script is also the one that is launched for the Gradio Hugging Face demo.
