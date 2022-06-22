@@ -15,6 +15,11 @@ class VeryClevrCLI:
         pass
 
     def interact(self):
+        """Start the Very CLEVR live demo.
+
+        This will start a web-based live demo of the Very CLEVR system using
+        Gradio. The URL of the demo can be found in the standard output.
+        """
         launch_interactive_demo()
 
 
