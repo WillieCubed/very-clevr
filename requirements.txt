@@ -1,0 +1,4 @@
+gradio
+tensorflow
+tensorflow-datasets
+matplotlib
