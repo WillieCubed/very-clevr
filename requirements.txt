@@ -4,3 +4,5 @@ tensorflow-datasets
 matplotlib
 fire
 black
+torch
+torchvision

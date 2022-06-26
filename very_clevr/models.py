@@ -10,7 +10,11 @@ Datasets
 (GBoD)
 """
 
+from typing import TypeVar
 import numpy as np
+
+
+Query = TypeVar("Query", bound=str)
 
 
 class Rule:
